@@ -10816,5 +10816,7 @@ select:visited {
 .center {
   justify-self: center;
   text-align: center;
-  
+}
+html {
+  scroll-behavior: smooth;
 }
