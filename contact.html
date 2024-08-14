@@ -331,10 +331,16 @@
         <div class="estimate_form">
           <form
             id="contact_form"
-            action="#"
+            action="https://api.web3forms.com/submit"
             method="POST"
             enctype="multipart/form-data"
           >
+            <input
+              type="hidden"
+              name="access_key"
+              value="ea556efa-5ab6-4941-a926-1a4709392d51"
+            />
+
             <div class="row">
               <div class="col-md-6">
                 <div class="contact-info">
@@ -343,6 +349,7 @@
                     name="name"
                     type="text"
                     placeholder="Entrez votre nom complet"
+                    required
                   />
                   <div class="icon-bg">
                     <i class="far fa-user"></i>
@@ -353,9 +360,10 @@
                 <div class="contact-info">
                   <input
                     class="name"
-                    name="Email"
+                    name="email"
                     type="email"
                     placeholder="Entrez votre adresse e-mail"
+                    required
                   />
                   <div class="icon-bg">
                     <i class="far fa-envelope"></i>
@@ -368,9 +376,10 @@
                 <div class="contact-info">
                   <input
                     class="email"
-                    name="case"
+                    name="phone"
                     type="text"
                     placeholder="Entrez votre téléphone"
+                    required
                   />
                   <div class="icon-bg">
                     <i class="fas fa-phone"></i>
@@ -381,9 +390,10 @@
                 <div class="contact-info">
                   <input
                     class="email"
-                    name="case"
+                    name="date"
                     type="text"
                     placeholder="Entrez la date"
+                    required
                   />
                   <div class="icon-bg">
                     <i class="fas fa-calendar-alt"></i>
@@ -394,9 +404,10 @@
                 <div class="contact-info">
                   <input
                     class="email"
-                    name="case"
+                    name="subject"
                     type="text"
                     placeholder="Entrez le sujet"
+                    required
                   />
                   <div class="icon-bg">
                     <i class="fas fa-arrow-down"></i>
@@ -409,6 +420,7 @@
                     id="message"
                     name="message"
                     placeholder="Entrez votre message"
+                    required
                   ></textarea>
                   <div class="icon-bg">
                     <i class="far fa-edit"></i>
@@ -418,6 +430,14 @@
             </div>
             <div class="sub-button text-uppercase">
               <button type="submit" value="Submit">Soumettre Maintenant</button>
+            </div>
+
+            <!-- Success Message Placeholder -->
+            <div
+              id="form_success_message"
+              style="display: none; color: green; margin-top: 10px"
+            >
+              Formulaire soumis avec succès !
             </div>
           </form>
         </div>
@@ -517,6 +537,7 @@
 	============================================= -->
 
     <!-- For Js Library -->
+    <script src="scriptSuc.js"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
