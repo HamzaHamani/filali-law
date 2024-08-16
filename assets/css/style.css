@@ -7172,6 +7172,10 @@ select:visited {
     max-width: 370px;
     margin: 0 auto;
   }
+  .portfolio_img {
+    background-color: red;
+    height: 300px;
+  }
 
   .slider_style_two .slider_contect_box .slider_text h1,
   .slider_style_three .slider_contect_box .slider_text h1 {
