@@ -10854,3 +10854,17 @@ html {
 .pricing_others {
   padding-top: 1px;
 }
+
+#tabsContent {
+  margin-top: 40px;
+}
+.footer_section .widget_title {
+  color: #111;
+}
+
+.footer_section .widget_footer_text {
+  color: #222;
+}
+.footer_section .practice_list li {
+  color: #222;
+}
