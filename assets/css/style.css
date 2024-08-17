@@ -1753,6 +1753,12 @@ select:visited {
 .mb2 {
   margin-bottom: 10px;
 }
+html .mb22 {
+  font-size: 35px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  font-weight: 500;
+}
 .slider_style_one .slider_contect_box .slider_text h1 {
   color: #fff;
   line-height: 1;
@@ -7172,10 +7178,6 @@ select:visited {
     max-width: 370px;
     margin: 0 auto;
   }
-  .portfolio_img {
-    background-color: red;
-    height: 300px;
-  }
 
   .slider_style_two .slider_contect_box .slider_text h1,
   .slider_style_three .slider_contect_box .slider_text h1 {
@@ -10832,4 +10834,23 @@ select:visited {
 }
 html {
   scroll-behavior: smooth;
+}
+.left-container {
+  display: felx;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+}
+.left-text {
+  text-align: end;
+
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  color: #b89b5e;
+  font-family: "Poppins";
+  text-decoration: underline;
+}
+.pricing_others {
+  padding-top: 1px;
 }
