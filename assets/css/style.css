@@ -6190,9 +6190,9 @@ html .mb22 {
   border: 2px solid #494949;
   background-color: #343434;
 }
-.footer_section .practice_list {
+/* .footer_section .practice_list {
   margin-right: -60px;
-}
+} */
 .footer_section .practice_list li {
   width: 50%;
   float: left;
@@ -10278,9 +10278,9 @@ select:visited {
   border: 2px solid #494949;
   background-color: #343434;
 }
-.footer_section .practice_list {
+/* .footer_section .practice_list {
   margin-right: -60px;
-}
+} */
 .footer_section .practice_list li {
   width: 50%;
   float: left;
@@ -10867,4 +10867,14 @@ html {
 }
 .footer_section .practice_list li {
   color: #222;
+}
+
+@media (max-width: 511px) {
+  html .ulflex {
+    font-size: 15px;
+  }
+}
+
+html .practice_list {
+  width: fit-content;
 }
