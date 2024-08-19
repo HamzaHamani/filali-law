@@ -10874,6 +10874,16 @@ html {
     font-size: 15px;
   }
 }
+@media (max-width: 425px) {
+  html .ulflex {
+    font-size: 13px;
+  }
+}
+@media (max-width: 337px) {
+  html .ulflex {
+    font-size: 15px;
+  }
+}
 
 html .practice_list {
   width: fit-content;
